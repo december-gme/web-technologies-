@@ -1,0 +1,65 @@
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+    h1{ 
+        background-color: red;
+        color: white;
+        width: 100%;
+        text-align: center;
+
+    }
+    .daughter{
+      width:100%;
+    }
+    .son{
+      width:100%;
+    }
+    .daughter{
+      width:100%;
+      height:auto;
+    }
+
+}
+
+
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    h1{ 
+        background-color: rgb(172, 80, 80);
+        color: rgb(215, 205, 205);
+        width: 100%;
+        text-align: center;
+   
+       }
+       .daughter{
+         width:100%;
+       }
+       .son{
+         width:100%;
+       }
+       .daughter{
+         width:100%;
+         height:auto;
+       }
+   
+ }
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    h1{ 
+        background-color: rgb(99, 12, 12);
+        color: whitesmoke;
+        width: 100%;
+        text-align: center;
+   
+       }
+       .daughter{
+         width:100%;
+       }
+       .son{
+         width:100%;
+       }
+       .daughter{
+         width:100%;
+         height:auto;
+       }
+
+}

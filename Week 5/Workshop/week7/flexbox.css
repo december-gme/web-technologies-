@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.flex{
+    width: 100%;
+    border:3px solid orangered;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:10px;
+}
+.box{
+    width:300px;    
+    height:300px;
+    border:1px solid pink;
+}
+.box1{
+    background-color: antiquewhite;
+}
+
+.box2{
+    background-color: rgb(180, 231, 231);
+}
+
+.box3{
+    background-color: rgb(203, 247, 232);
+}
+
+.box4{
+    background-color: blanchedalmond;
+}
+
+.box5{
+    background-color: rgb(216, 209, 210);
+}

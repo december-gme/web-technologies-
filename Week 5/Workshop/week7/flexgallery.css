@@ -1,0 +1,95 @@
+img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        padding: 5px;
+    }
+    
+    img:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    #Image{
+     flex-grow:5;
+    }
+    
+    .container{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: black;
+     flex-direction: row;
+     transition: step-end;
+    }
+    gird gallery html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <div class="grid-gallery">
+            <div class="grid-item">
+                <img src="Images/Image1.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image1.png" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image2.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image3.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image4.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image5.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image6.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image7.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image8.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image9.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image1.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image2.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image3.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image4.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image5.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image6.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image6.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="Images/Image7.jpg" alt="">
+           </div>
+    
+        </div>
+    </body>
+    </html>
+    
